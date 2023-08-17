@@ -1,0 +1,10 @@
+Exercicio 1-
+console.log("a," resultado) = a, false
+console.log("b," resultado) = b, false
+console.log("c," resultado) = c, true (usa o resultado anterior para desenvolver esse)
+console.log("d," resultado) = d, booleano
+
+Exercicio 2- O problema é que ele soma strings e acabada juntando os numeros inves de somar
+ 
+Exercicio 3- O motivo pelo codigo nâo dar certo é a falta dos comandos primeiroNumero = Number(primeiroNumero) e 
+segundoNumero = Number(segundoNumero) antes do comando 	const soma = primeiroNumero + segundoNumero, então apos converter de string para numero passara a somar corretamente
